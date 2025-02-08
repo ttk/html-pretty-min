@@ -77,7 +77,6 @@ class PrettyMin
             $d->loadHTML($html);
         }
         $d->formatOutput = false;
-        $d->normalizeDocument();
         $this->doc = $d;
         return $this;
     }
